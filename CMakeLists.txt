@@ -18,3 +18,5 @@ execute_process(
     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/snippets/snippet_3/
 )
 file(RENAME ${CMAKE_SOURCE_DIR}/snippets/snippet_3/snippet_3_gcc ${CMAKE_BINARY_DIR}/snippet_3_gcc)
+
+add_executable(snippet_4 snippets/snippet_4.cpp)
